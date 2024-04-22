@@ -120,6 +120,7 @@
 
 	.header_right {
 		display: none;
+		transition: all 0.2s ease-in;
 	}
 
 	@media (max-width: 1300px) {
@@ -166,6 +167,7 @@
 			font-size: 25px;
 		}
 	}
+
 	@media (max-width: 1000px) {
 		&_title_name {
 			font-size: 25px;
@@ -174,6 +176,7 @@
 			font-size: 20px;
 		}
 	}
+
 	@media (max-width: 850px) {
 		&_title_name {
 			font-size: 20px;
@@ -182,6 +185,7 @@
 			font-size: 15px;
 		}
 	}
+
 	@media (max-width: 700px) {
 		&_title_name {
 			font-size: 20px;
@@ -190,12 +194,22 @@
 			font-size: 15px;
 		}
 	}
+
 	@media (max-width: 600px) {
 		&_title_name {
 			font-size: 20px;
 		}
 		&_description {
 			width: 150px;
+		}
+	}
+
+	@media (max-width: 290px) {
+		.header_description {
+			display: none;
+		}
+		.header_title {
+			display: none;
 		}
 	}
 }

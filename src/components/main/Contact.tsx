@@ -10,7 +10,7 @@ const Contact = () => {
 					<div className={contactStyles.contact_left}>
 						<div className={contactStyles.contact_call}>
 							<h4>Наш адрес:</h4>
-							<div className={contactStyles.contact_call_adress}>
+							<div className={contactStyles.contact_call_address}>
 								<img src='images/point.png' alt='' />
 								<span>
 									{' '}
